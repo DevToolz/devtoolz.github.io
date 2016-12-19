@@ -138,6 +138,7 @@ form.signup input.form-control:focus {
 
 #wrapper > .container {
   padding-top: 50px;
+  height: 768px;
 }
 
 #wrapper h1 {
