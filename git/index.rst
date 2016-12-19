@@ -8,7 +8,8 @@ Simple Git Tutorial
    :caption: Содержание:
 
    introduction
-   git_installation
+   installation
+   configuration
 
 Указатели и таблицы
 ===================
