@@ -7,13 +7,9 @@ Simple Git Tutorial
    :maxdepth: 2
    :caption: Содержание:
 
-   introduction
-   installation
-   configuration
+   0_introduction
+   1_installation
+   2_configuration
+   99_contribution
 
-Указатели и таблицы
-===================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+:ref:`genindex`

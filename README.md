@@ -6,14 +6,14 @@
 
 1. Install [Python 3](https://www.python.org/downloads/)
 2. `pip install -U Sphinx`
-3. `pip install sphinx_rtd_theme`
-4. Done!
+3. Done!
 
 # Build
 
 1. `cd simple_git_tutorial`
-2. `make.bat clean`
-2. `make.bat html`
+2. `make clean && make html`
+3. `python -m http.server`
+4. `open http://localhost:8000/_build/html/`
 
 Authors:
 

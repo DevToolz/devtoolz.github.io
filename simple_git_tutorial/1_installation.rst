@@ -13,10 +13,18 @@ Windows
 
 При этом обратите внимание на следующие параметры:
 
-* TODO
-* TODO
-* TODO
-* TODO
+.. figure:: images/windows_installation_01.png
+    :figclass: align-center
+
+    Установка Git в ОС Windows
+
+.. figure:: images/windows_installation_02.png
+    :figclass: align-center
+
+    Рекомендуемые параметры интеграции с Windows Explorer
+
+.. todo::
+   Установка Git в ОС Windows
 
 Ubuntu Linux
 ------------
@@ -30,7 +38,7 @@ macOS
 -----
 Для установки Git в операционной системе macOS рекомендуется воспользоваться менеджером пакетов Homebrew.
 
-1. Если у вас не установлен менеджер пакетов Homebrew, то сделайте это при помощи команды:
+1. Если у вас не установлен менеджер пакетов Homebrew, то сделайте это при помощи `оффициального скрипта установки <https://raw.githubusercontent.com/Homebrew/install/master/install>`_:
 
 .. code-block:: bash
 
