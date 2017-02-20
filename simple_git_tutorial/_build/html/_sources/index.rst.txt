@@ -10,6 +10,7 @@ Simple Git Tutorial
    0_introduction
    1_installation
    2_configuration
+   98_gpg_configuration
    99_contribution
 
 :ref:`genindex`
