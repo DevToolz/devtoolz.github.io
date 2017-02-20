@@ -26,6 +26,8 @@ Windows
 .. todo::
    Установка Git в ОС Windows
 
+----
+
 Ubuntu Linux
 ------------
 Для установки Git воспользуйтесь стандартным пакетным менеджером APT:
@@ -42,16 +44,18 @@ macOS
 
 .. code-block:: bash
 
-  # данную команду необходимо ввести в приложении "Терминал"
+  # данные команды необходимо ввести в приложении "Терминал"
+
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   
 2. При помощи пакетного менеджера Homebrew установите Git:
 
 .. code-block:: bash
 
-    # данную команду необходимо ввести в приложении "Терминал"
+    # данные команды необходимо ввести в приложении "Терминал"
+
     brew install git
 
-----
-
 Теперь вы можете перейти к :ref:`первоначальной настройке <configuration>`.
+
+.. index:: Windows, Ubuntu, Linux, macOS, PuTTY, apt, Homebrew, brew

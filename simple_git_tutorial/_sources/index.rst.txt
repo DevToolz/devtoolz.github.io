@@ -1,4 +1,4 @@
-.. Simple Git Tutorial by Andrey Saksonov (Mon Dec 19 08:16:58 2016).
+.. Simple Git Tutorial by Andrey Saksonov
 
 Simple Git Tutorial
 ===================
@@ -10,6 +10,11 @@ Simple Git Tutorial
    0_introduction
    1_installation
    2_configuration
+   3_local_repository
+   4_remote_repository
+   5_git_merge
+   6_git_rebase
+   98_gpg_configuration
    99_contribution
 
 :ref:`genindex`
