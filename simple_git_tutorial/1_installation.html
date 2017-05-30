@@ -102,7 +102,8 @@
 <li class="toctree-l1"><a class="reference internal" href="4_remote_repository.html">Работа с удаленным репозиторием</a></li>
 <li class="toctree-l1"><a class="reference internal" href="5_git_merge.html">Ветвление и слияние</a></li>
 <li class="toctree-l1"><a class="reference internal" href="6_git_rebase.html">Ветвление и перебазирование</a></li>
-<li class="toctree-l1"><a class="reference internal" href="98_gpg_configuration.html">Установка GPG и цифровая подпись изменений</a></li>
+<li class="toctree-l1"><a class="reference internal" href="97_gpg_configuration.html">Установка GPG и цифровая подпись изменений</a></li>
+<li class="toctree-l1"><a class="reference internal" href="98_using_keybase.html">Использование Keybase для подтверждения личности</a></li>
 <li class="toctree-l1"><a class="reference internal" href="99_contribution.html">Разделы, нуждающиеся в редактировании</a></li>
 </ul>
 
@@ -186,9 +187,33 @@
 <img alt="_images/windows_installation_02.png" src="_images/windows_installation_02.png" />
 <p class="caption"><span class="caption-text">Рекомендуемые параметры интеграции с Windows Explorer</span></p>
 </div>
-<div class="admonition-todo admonition" id="index-0">
-<p class="first admonition-title">План</p>
-<p class="last">Установка Git в ОС Windows</p>
+<div class="align-center figure" id="id4">
+<img alt="_images/windows_installation_03.png" src="_images/windows_installation_03.png" />
+<p class="caption"><span class="caption-text">Рекомендуемые параметры интеграции с Command Prompt</span></p>
+</div>
+<div class="align-center figure" id="id5">
+<img alt="_images/windows_installation_04.png" src="_images/windows_installation_04.png" />
+<p class="caption"><span class="caption-text">Для работы с удаленными Git-репозиториями по протоколу SSH рекомендуется использовать PuTTY</span></p>
+</div>
+<div class="align-center figure" id="id6">
+<img alt="_images/windows_installation_05.png" src="_images/windows_installation_05.png" />
+<p class="caption"><span class="caption-text">Рекомендуется включить автоматическую конвертацию окончаний строк (CRLF -&gt; LF)</span></p>
+</div>
+<div class="align-center figure" id="id7">
+<img alt="_images/windows_installation_06.png" src="_images/windows_installation_06.png" />
+<p class="caption"><span class="caption-text">Для работы с Git Bash по умолчанию рекомендуется использовать MinTTY</span></p>
+</div>
+<div class="align-center figure" id="id8">
+<img alt="_images/windows_installation_07.png" src="_images/windows_installation_07.png" />
+<p class="caption"><span class="caption-text">Данные опции по умолчанию рекомендуется оставить включенными</span></p>
+</div>
+<div class="align-center figure" id="id9">
+<img alt="_images/windows_installation_08.png" src="_images/windows_installation_08.png" />
+<p class="caption"><span class="caption-text">Новый, экспериментальный инструмент сравнения по умолчанию</span></p>
+</div>
+<div class="align-center figure" id="id10">
+<img alt="_images/windows_installation_09.png" src="_images/windows_installation_09.png" />
+<p class="caption"><span class="caption-text">Установка завершена</span></p>
 </div>
 </div>
 <hr class="docutils" />
@@ -205,7 +230,7 @@
 <ol class="arabic simple">
 <li>Если у вас не установлен менеджер пакетов Homebrew, то сделайте это при помощи <a class="reference external" href="https://raw.githubusercontent.com/Homebrew/install/master/install">оффициального скрипта установки</a>:</li>
 </ol>
-<div class="highlight-bash"><div class="highlight"><pre><span></span><span class="c1"># данные команды необходимо ввести в приложении &quot;Терминал&quot;</span>
+<div class="highlight-bash"><div class="highlight"><pre><span></span><span class="c1"># данную команду необходимо ввести в приложении &quot;Терминал&quot;</span>
 
 /usr/bin/ruby -e <span class="s2">&quot;</span><span class="k">$(</span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install<span class="k">)</span><span class="s2">&quot;</span>
 </pre></div>
@@ -213,13 +238,13 @@
 <ol class="arabic simple" start="2">
 <li>При помощи пакетного менеджера Homebrew установите Git:</li>
 </ol>
-<div class="highlight-bash"><div class="highlight"><pre><span></span><span class="c1"># данные команды необходимо ввести в приложении &quot;Терминал&quot;</span>
+<div class="highlight-bash"><div class="highlight"><pre><span></span><span class="c1"># данную команду необходимо ввести в приложении &quot;Терминал&quot;</span>
 
 brew install git
 </pre></div>
 </div>
 <p>Теперь вы можете перейти к <a class="reference internal" href="2_configuration.html#configuration"><span class="std std-ref">первоначальной настройке</span></a>.</p>
-<span class="target" id="index-1"></span></div>
+<span class="target" id="index-0"></span></div>
 </div>
 
 

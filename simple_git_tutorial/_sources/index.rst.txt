@@ -14,7 +14,8 @@ Simple Git Tutorial
    4_remote_repository
    5_git_merge
    6_git_rebase
-   98_gpg_configuration
+   97_gpg_configuration
+   98_using_keybase
    99_contribution
 
 :ref:`genindex`

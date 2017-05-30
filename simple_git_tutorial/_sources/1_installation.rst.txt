@@ -23,8 +23,40 @@ Windows
 
     Рекомендуемые параметры интеграции с Windows Explorer
 
-.. todo::
-   Установка Git в ОС Windows
+.. figure:: images/windows_installation_03.png
+    :figclass: align-center
+
+    Рекомендуемые параметры интеграции с Command Prompt
+
+.. figure:: images/windows_installation_04.png
+    :figclass: align-center
+
+    Для работы с удаленными Git-репозиториями по протоколу SSH рекомендуется использовать PuTTY
+
+.. figure:: images/windows_installation_05.png
+    :figclass: align-center
+
+    Рекомендуется включить автоматическую конвертацию окончаний строк (CRLF -> LF)
+
+.. figure:: images/windows_installation_06.png
+    :figclass: align-center
+
+    Для работы с Git Bash по умолчанию рекомендуется использовать MinTTY
+
+.. figure:: images/windows_installation_07.png
+    :figclass: align-center
+
+    Данные опции по умолчанию рекомендуется оставить включенными
+
+.. figure:: images/windows_installation_08.png
+    :figclass: align-center
+
+    Новый, экспериментальный инструмент сравнения по умолчанию
+
+.. figure:: images/windows_installation_09.png
+    :figclass: align-center
+
+    Установка завершена
 
 ----
 
@@ -44,7 +76,7 @@ macOS
 
 .. code-block:: bash
 
-  # данные команды необходимо ввести в приложении "Терминал"
+  # данную команду необходимо ввести в приложении "Терминал"
 
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   
@@ -52,7 +84,7 @@ macOS
 
 .. code-block:: bash
 
-    # данные команды необходимо ввести в приложении "Терминал"
+    # данную команду необходимо ввести в приложении "Терминал"
 
     brew install git
 

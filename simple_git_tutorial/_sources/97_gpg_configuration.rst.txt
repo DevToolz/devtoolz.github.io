@@ -6,3 +6,6 @@
 
 .. todo::
    Установка GPG и цифровая подпись изменений
+
+   | https://lists.gnupg.org/pipermail/gnupg-announce/
+   | https://www.gpg4win.org/download.html
