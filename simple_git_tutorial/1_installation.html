@@ -93,8 +93,9 @@
 <li class="toctree-l1"><a class="reference internal" href="0_introduction.html">Введение</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Установка Git</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#windows">Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#windows-scoop">Windows (установка при помощи Scoop)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#ubuntu-linux">Ubuntu Linux</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#macos">macOS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#macos-homebrew">macOS (установка при помощи Homebrew)</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="2_configuration.html">Первоначальная настройка</a></li>
@@ -174,8 +175,9 @@
 <h2>Windows<a class="headerlink" href="#windows" title="Ссылка на этот заголовок">¶</a></h2>
 <ol class="arabic simple">
 <li>Скачайте и установите SSH-клиент PuTTY: <a class="reference external" href="http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html</a></li>
+<li>Скачайте и установите текстовый редактор Notepad++: <a class="reference external" href="https://notepad-plus-plus.org/">https://notepad-plus-plus.org/</a></li>
 <li>Скачайте установочный дистрибутив со страницы <a class="reference external" href="https://git-scm.com/download/win">https://git-scm.com/download/win</a></li>
-<li>Запустите скачанный исполняемый файл, например Git-2.11.0-64-bit.exe</li>
+<li>Запустите скачанный исполняемый файл, например Git-2.13.2-64-bit.exe</li>
 <li>Следуйте инструкциям, которые предлагает мастер по установке</li>
 </ol>
 <p>При этом обратите внимание на следующие параметры:</p>
@@ -185,47 +187,75 @@
 </div>
 <div class="align-center figure" id="id3">
 <img alt="_images/windows_installation_02.png" src="_images/windows_installation_02.png" />
-<p class="caption"><span class="caption-text">Рекомендуемые параметры интеграции с Windows Explorer</span></p>
+<p class="caption"><span class="caption-text">Выбор расположения для установки</span></p>
 </div>
 <div class="align-center figure" id="id4">
 <img alt="_images/windows_installation_03.png" src="_images/windows_installation_03.png" />
-<p class="caption"><span class="caption-text">Рекомендуемые параметры интеграции с Command Prompt</span></p>
+<p class="caption"><span class="caption-text">Рекомендуемые параметры интеграции с Windows Explorer</span></p>
 </div>
 <div class="align-center figure" id="id5">
 <img alt="_images/windows_installation_04.png" src="_images/windows_installation_04.png" />
-<p class="caption"><span class="caption-text">Для работы с удаленными Git-репозиториями по протоколу SSH рекомендуется использовать PuTTY</span></p>
+<p class="caption"><span class="caption-text">Расположение в меню Пуск</span></p>
 </div>
 <div class="align-center figure" id="id6">
 <img alt="_images/windows_installation_05.png" src="_images/windows_installation_05.png" />
-<p class="caption"><span class="caption-text">Рекомендуется включить автоматическую конвертацию окончаний строк (CRLF -&gt; LF)</span></p>
+<p class="caption"><span class="caption-text">Рекомендуемые параметры интеграции с Windows Command Prompt</span></p>
 </div>
 <div class="align-center figure" id="id7">
 <img alt="_images/windows_installation_06.png" src="_images/windows_installation_06.png" />
-<p class="caption"><span class="caption-text">Для работы с Git Bash по умолчанию рекомендуется использовать MinTTY</span></p>
+<p class="caption"><span class="caption-text">Рекомендуемые настройки для работы с протоколом HTTPS</span></p>
 </div>
 <div class="align-center figure" id="id8">
 <img alt="_images/windows_installation_07.png" src="_images/windows_installation_07.png" />
-<p class="caption"><span class="caption-text">Данные опции по умолчанию рекомендуется оставить включенными</span></p>
+<p class="caption"><span class="caption-text">Рекомендуется включить автоматическую конвертацию окончаний строк (CRLF -&gt; LF)</span></p>
 </div>
 <div class="align-center figure" id="id9">
 <img alt="_images/windows_installation_08.png" src="_images/windows_installation_08.png" />
-<p class="caption"><span class="caption-text">Новый, экспериментальный инструмент сравнения по умолчанию</span></p>
+<p class="caption"><span class="caption-text">Для работы с Git Bash рекомендуется использовать терминал MinTTY</span></p>
 </div>
 <div class="align-center figure" id="id10">
 <img alt="_images/windows_installation_09.png" src="_images/windows_installation_09.png" />
+<p class="caption"><span class="caption-text">Данные опции по умолчанию рекомендуется оставить включенными</span></p>
+</div>
+<div class="align-center figure" id="id11">
+<img alt="_images/windows_installation_10.png" src="_images/windows_installation_10.png" />
+<p class="caption"><span class="caption-text">Установка</span></p>
+</div>
+<div class="align-center figure" id="id12">
+<img alt="_images/windows_installation_11.png" src="_images/windows_installation_11.png" />
 <p class="caption"><span class="caption-text">Установка завершена</span></p>
 </div>
 </div>
 <hr class="docutils" />
-<div class="section" id="ubuntu-linux">
-<h2>Ubuntu Linux<a class="headerlink" href="#ubuntu-linux" title="Ссылка на этот заголовок">¶</a></h2>
-<p>Для установки Git воспользуйтесь стандартным пакетным менеджером APT:</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>sudo apt update <span class="o">&amp;&amp;</span> sudo apt install git
+<div class="section" id="windows-scoop">
+<h2>Windows (установка при помощи Scoop)<a class="headerlink" href="#windows-scoop" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Для установки Git в операционной системе Windows можно воспользоваться менеджером пакетов Scoop.</p>
+<ol class="arabic simple">
+<li>Если у вас не установлен менеджер пакетов Scoop, то сделайте это при помощи оффициального скрипта установки:</li>
+</ol>
+<div class="highlight-powershell"><div class="highlight"><pre><span></span><span class="c"># данную команду необходимо ввести в приложении &quot;PowerShell&quot;</span>
+
+<span class="n">iex</span> <span class="p">(</span><span class="nb">new-object</span> <span class="n">net</span><span class="p">.</span><span class="n">webclient</span><span class="p">).</span><span class="n">downloadstring</span><span class="p">(</span><span class="s1">&#39;https://get.scoop.sh&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="2">
+<li>При помощи пакетного менеджера Scoop установите Git:</li>
+</ol>
+<div class="highlight-powershell"><div class="highlight"><pre><span></span><span class="c"># данную команду необходимо ввести в приложении &quot;PowerShell&quot;</span>
+
+<span class="n">scoop</span> <span class="n">install</span> <span class="n">git</span>
 </pre></div>
 </div>
 </div>
-<div class="section" id="macos">
-<h2>macOS<a class="headerlink" href="#macos" title="Ссылка на этот заголовок">¶</a></h2>
+<div class="section" id="ubuntu-linux">
+<h2>Ubuntu Linux<a class="headerlink" href="#ubuntu-linux" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Для установки Git воспользуйтесь стандартным пакетным менеджером APT:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>apt update <span class="o">&amp;&amp;</span> apt install git
+</pre></div>
+</div>
+</div>
+<div class="section" id="macos-homebrew">
+<h2>macOS (установка при помощи Homebrew)<a class="headerlink" href="#macos-homebrew" title="Ссылка на этот заголовок">¶</a></h2>
 <p>Для установки Git в операционной системе macOS рекомендуется воспользоваться менеджером пакетов Homebrew.</p>
 <ol class="arabic simple">
 <li>Если у вас не установлен менеджер пакетов Homebrew, то сделайте это при помощи <a class="reference external" href="https://raw.githubusercontent.com/Homebrew/install/master/install">оффициального скрипта установки</a>:</li>
